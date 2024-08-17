@@ -1,0 +1,39 @@
+{
+  "data": {
+    "message": {
+      "RouteTables": [
+        {
+          "Associations": [
+            {
+              "Main": true,
+              "RouteTableAssociationId": "rtbassoc-fe4dbe87",
+              "RouteTableId": "rtb-04409962",
+              "AssociationState": {
+                "State": "associated"
+              }
+            }
+          ],
+          "PropagatingVgws": [],
+          "RouteTableId": "rtb-04409962",
+          "Routes": [
+            {
+              "DestinationCidrBlock": "172.31.0.0/16",
+              "GatewayId": "local",
+              "Origin": "CreateRouteTable",
+              "State": "active"
+            },
+            {
+              "DestinationCidrBlock": "0.0.0.0/0",
+              "GatewayId": "igw-05082b61",
+              "Origin": "CreateRoute",
+              "State": "active"
+            }
+          ],
+          "Tags": [],
+          "VpcId": "vpc-905875f7",
+          "OwnerId": "360708451888"
+        }
+      ]
+    }
+  }
+}
